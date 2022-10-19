@@ -1,11 +1,7 @@
 import React from "react";
-import Home from "./components/Home";
+import Page from "./components/Page";
 
 
-function App() {
-  return(
-    <Home />
-  );
-};
+const App = () => <Page />
 
 export default App;
