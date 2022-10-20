@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import anime from "animejs"
 import Portfolio from "./pages/Portfolio"
 import About from "./pages/About"
 import Contact from "./pages/Contact"
@@ -10,7 +11,7 @@ export default function Page() {
   const [activePage, setActivePage] = useState("About");
 
   const handlePageChange = (page) => setActivePage(page);
-
+ 
   const renderPage = () => {
     switch (activePage) {
       case "Portfolio":
@@ -25,13 +26,21 @@ export default function Page() {
     }
   }
 
+
+  const styles = {
+    div: {
+      height: "100vh",
+      display: "flex",
+      flexDirection: "column"
+    }
+  }
   return (
-    <div>
+    <div >
       <Header />
       <div>
         <Navbar activePage={activePage} handlePageChange={handlePageChange} />
       </div>
-      <div>
+      <div style={styles.div}>
         {renderPage()}
       </div>
     </div>

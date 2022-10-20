@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Resume() {
   return (
-    <div>Resume</div>
+    <h1>Resume</h1>
   )
 }

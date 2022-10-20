@@ -3,11 +3,10 @@ import React from 'react'
 
 export default function Navbar({currentPage, handlePageChange}) {
 
-    
 
   return (
-      <nav className="display-flex">
-      <ul className='nav nav-item'>
+      <nav className="container-fluid">
+      <ul className='nav nav-tabs d-flex justify-content-evenly '>
         <li className="nav-item">
           <a href="/#about" onClick={() => {handlePageChange("About")}} className={currentPage == "About" ? "nav-link active" : "nav-link"}>
           About
