@@ -1,8 +1,18 @@
 import React from 'react'
 
 export default function Contact() {
-  
+  const styles = {
+    section: {
+      backgroundColor: "#101010",
+      flexGrow: 1, 
+    },
+    h1: {
+      color: "white",
+    }
+  }
   return (
-    <h1>Contact</h1>
+    <section style={styles.section}>
+    <h1 style={styles.h1}>Contact</h1>
+    </section>
   )
 }
