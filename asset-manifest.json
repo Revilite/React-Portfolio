@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.c59cc657.css",
+    "main.js": "/react-portfolio/static/js/main.0feaa78b.js",
+    "static/media/headShot.jpg": "/react-portfolio/static/media/headShot.4d535ebb7d0ea2947134.jpg",
+    "static/media/abstract_Banner.png": "/react-portfolio/static/media/abstract_Banner.b26ac5ef39908ca2982f.png",
+    "static/media/combat_Simulator.png": "/react-portfolio/static/media/combat_Simulator.7f139dc43a553afbe835.png",
+    "static/media/schedule_maker.png": "/react-portfolio/static/media/schedule_maker.582e2e5787d078164186.png",
+    "static/media/team_profile_generator.png": "/react-portfolio/static/media/team_profile_generator.e5dc3620e62451575382.png",
+    "static/media/resume.png": "/react-portfolio/static/media/resume.e67ca2e65f92560df0d6.png",
+    "static/media/weather_Dashboard.png": "/react-portfolio/static/media/weather_Dashboard.ba4d414513a7c67d8e8e.png",
+    "static/media/coding_quiz.png": "/react-portfolio/static/media/coding_quiz.97fd4ee67c3cc4847402.png",
+    "static/media/password_Generator.png": "/react-portfolio/static/media/password_Generator.39b01d109adfb91773dc.png",
+    "static/media/linkedin.png": "/react-portfolio/static/media/linkedin.500ca075900d92dfd295.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.c59cc657.css.map": "/react-portfolio/static/css/main.c59cc657.css.map",
+    "main.0feaa78b.js.map": "/react-portfolio/static/js/main.0feaa78b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c59cc657.css",
+    "static/js/main.0feaa78b.js"
+  ]
+}
