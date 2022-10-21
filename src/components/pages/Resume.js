@@ -1,4 +1,5 @@
 import React from 'react'
+import resume from "../../photos/resume.png"
 
 export default function Resume() {
   const styles = {
@@ -24,7 +25,7 @@ export default function Resume() {
   return (
     <section style={styles.section}>
       <h1 style={styles.h1} className="px-5 py-3">Resume</h1>
-      <p style={styles.p} className="px-5 mx-5">Download My <a style={styles.p} href="">Resume</a> </p>
+      <p style={styles.p} className="px-5 mx-5">Download My <a style={styles.p} href={resume}>Resume</a> </p>
 
       <div style={styles.div}>
         <h2>Front-end Proficiencies:</h2>
