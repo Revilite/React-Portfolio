@@ -6,7 +6,7 @@ import Contact from "./pages/Contact"
 import Resume from "./pages/Resume"
 import Navbar from './Navbar'
 import Header from "./Header"
-
+import Footer from "./Footer"
 export default function Page() {
   const [activePage, setActivePage] = useState("About");
 
@@ -42,6 +42,9 @@ export default function Page() {
       </div>
       <div style={styles.div}>
         {renderPage()}
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );
