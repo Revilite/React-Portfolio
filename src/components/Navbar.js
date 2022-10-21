@@ -1,4 +1,3 @@
-import anime from 'animejs'
 import React from 'react'
 
 export default function Navbar({ currentPage, handlePageChange }) {

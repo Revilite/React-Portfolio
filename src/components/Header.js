@@ -1,4 +1,3 @@
-import anime from "animejs";
 import React from 'react';
 import bannerBackground from "../photos/abstract_Banner.png"
 
