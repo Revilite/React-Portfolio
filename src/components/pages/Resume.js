@@ -12,7 +12,7 @@ export default function Resume() {
   }
   return (
     <section style={styles.section}>
-    <h1 style={styles.h1}>Resume</h1>
+    <h1 style={styles.h1} className="px-5 py-3">Resume</h1>
     </section>
   )
 }

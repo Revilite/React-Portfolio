@@ -12,7 +12,7 @@ export default function Portfolio() {
   }
   return (
     <section style={styles.section}>
-    <h1 style={styles.h1}>Portfolio</h1>
+    <h1 style={styles.h1} className="px-5 py-3">Portfolio</h1>
     </section>
   )
 }

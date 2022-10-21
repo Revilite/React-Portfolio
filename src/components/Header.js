@@ -12,17 +12,21 @@ export default function Header(animation) {
     },
     header: {
       display: "flex",
+      justifyContent: "center"
+    },
+    p: {
       color: "white",
-      justifyContent: "center",
       fontFamily: "Permanent Marker",
-      fontSize: "75px"
+      fontSize: "62px",
+      textShadow: "0px 0px 40px #FFFFFF"
     }
+
   }
 
   return (
     <div style={styles.div} className="p5 m5">
     <h1 style={styles.header} className='container-xl'>
-      Welcome
+      <p style={styles.p}>Welcome</p>
     </h1>
     </div>
   )
