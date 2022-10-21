@@ -1,17 +1,21 @@
 import anime from "animejs";
 import React from 'react';
+import bannerBackground from "../photos/abstract_Banner.png"
+
 
 export default function Header(animation) {
   const styles = {
     div: {
       display: "flex",
-      backgroundColor: "#606060",
+      backgroundImage: `url(${bannerBackground})`,
       padding: "30px",
     },
     header: {
       display: "flex",
       color: "white",
       justifyContent: "center",
+      fontFamily: "Permanent Marker",
+      fontSize: "75px"
     }
   }
 
